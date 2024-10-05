@@ -23,27 +23,15 @@ body{
     height: 100%;
 }
 
-.direita .acima{
-    height: 25%;
-    width: 100%;
-    font-size: 200%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-
-.direita .meio{
-    height: 50%;
-    width: 100%;
-    background-color: brown;
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-    padding-left: 20px;
+.direita input{
+    text-decoration: none;
+    border: 1px solid rgb(34, 153, 233);
+    height: 50px;
+    width: 80%;
 }
 
 .direita .embaixo{
     height: 25%;
 }
+
