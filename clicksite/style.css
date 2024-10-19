@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.header .logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.header .pesquisa .barra .icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .pesquisa .barra .icone i{
+    font-size: 19px;
+}
+
+.header .pesquisa {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .pesquisa .barra{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    border: 3px solid #d8d8d8;
+    border-radius: 5px;
+}
+
+.header .pesquisa .barra .icone {
+    width: 6%;
+    height: 100%;
+}
+
+.header .pesquisa .barra .campo {
+    width: 94%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .pesquisa .barra .campo input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    outline: none;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.header .info{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.header .info img{
+    border-radius: 50%;
+}
+
+.header .info i{
+    font-size: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.main .menu{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.main .conteudo{
+    width: 80%;
+    height: 100%;
+    padding: 30px;
+    background-color: #e9e9e9;
+}
+
+.main .conteudo .info{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #160064;
+    border-radius: 10px;
+    color: white;
+}
+
+.main .conteudo .info .icone{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .conteudo .info .textos{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.main .conteudo .info .textos a{
+    color: white;
+    text-decoration: none;
+}
+
+.main .conteudo .cards{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.main .conteudo .cards .card{
+    border: 1px solid #8f8f8f;
+    border-radius: 10px;
+    background-color: white;
+    width: 40%;
+    height: 110px;
+    display: flex;
+}
+
+.main .conteudo .cards .card .icone{
+    width:30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .icone i{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-1 .icone i{
+    color: rgb(255, 115, 0);
+    background-color: rgb(255, 201, 140);
+}
+
+#card-2 .icone i{
+    color: rgb(57, 133, 57);
+    background-color: rgb(175, 255, 178);
+}
+
+#card-3 .icone i{
+    color: rgb(93, 93, 192);
+    background-color: rgb(209, 216, 238);
+}
+
+#card-4 .icone i{
+    background-color:rgb(175, 255, 231);
+    color: cadetblue;
+}
+
+.main .menu .campo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .menu .campo button{
+    color: white;
+    border: none;
+    background-color: #160064;
+    border-radius: 7px;
+    padding: 10px 90px;
+    transition: all 300ms ease;
+}
+
+.main .menu .campo button:hover{
+    background-color: #006e00;
+    border: 2px solid black;
+
+
+}
+
+.main .menu .opcao{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+    gap: 20px;
+    transition: all 250ms ease;
+    color: #8f8f8f;
+}
+
+.main .menu .opcao:hover{
+    background-color: #d8d8d8;
+}
+
+#selecionado{
+    border-left: 5px solid #160064;
+    color: black;
+}
+
+.main .menu .opcao i{
+    width: 10px;
+}
+
+
+
+
